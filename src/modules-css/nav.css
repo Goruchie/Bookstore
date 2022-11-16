@@ -1,0 +1,18 @@
+.logo {
+  margin-top: 3%;
+  margin-left: 3%;
+  font-size: 40px;
+}
+
+.ul-nav {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  margin-left: 800px;
+  margin-top: -55px;
+}
+
+.link-item {
+  margin-right: 50px;
+  font-size: 20px;
+}
