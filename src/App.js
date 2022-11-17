@@ -1,8 +1,5 @@
 import React from 'react';
-import {
-  Routes,
-  Route,
-} from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import NavBar from './components/nav';
 import Bookstore from './pages/Books';
 import Categories from './pages/Categories';
