@@ -31,7 +31,7 @@
 
 - GitHub: [@Goruchie](https://github.com/Goruchie)
 - Twitter: [@Goruchie2](https://twitter.com/Goruchie2)
-- LinkedIn: [luccamicale](https://www.linkedin.com/in/marcos-gualtero-a2aa35246/)
+- LinkedIn: [@marcosgualtero](hhttps://www.linkedin.com/in/marcosgualtero/)
 
 
 ## 🤝 Contributing
