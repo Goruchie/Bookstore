@@ -1,14 +1,25 @@
 import React from 'react';
+import { useSelector } from 'react-redux';
 import Book from '../components/Book';
 import AddBook from '../components/addBook';
 
-const Bookss = () => (
-  <div>
-    <Book title="The Hunger Games" author="Suzanne Collins" />
-    <Book title="Dune" author="Frank Herbert" />
-    <Book title="Capital in the Twenty-First Century" author="Suzanne Collins" />
-    <AddBook />
-  </div>
-);
+const Books = () => {
+  const books = useSelector((state) => state.book);
+  return (
+    <div className="main-container">
+      {books.map((book) => (
+        <Book
+          key={book.id}
+          id={book.id}
+          title={book.title}
+          author={book.author}
+          completed={book.completed}
+          chapter={book.chapter}
+        />
+      ))}
+      <AddBook />
+    </div>
+  );
+};
 
-export default Bookss;
+export default Books;
