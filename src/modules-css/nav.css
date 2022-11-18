@@ -24,3 +24,13 @@
   text-decoration: none;
   color: darkgray;
 }
+
+.img-user {
+  width: 50px;
+  margin-left: 60%;
+  margin-top: -20px;
+}
+
+.header {
+  border: 1px solid whitesmoke;
+}
