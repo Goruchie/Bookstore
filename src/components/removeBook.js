@@ -11,7 +11,9 @@ const RemoveBook = (id) => {
     setTimeout(() => dispatch(fetchBooks()), 500);
   };
   return (
+
     <button type="button" className="btn-buttons" onClick={onClickRemove} id={convertedId}>Remove</button>
+
   );
 };
 

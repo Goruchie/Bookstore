@@ -1,8 +1,8 @@
 .logo {
   margin-top: 3%;
-  margin-left: 3%;
+  margin-left: 6%;
   font-size: 40px;
-  color: rgb(28, 195, 236);
+  color: rgb(24, 142, 238);
 }
 
 .ul-nav {
@@ -23,4 +23,19 @@
 .item {
   text-decoration: none;
   color: darkgray;
+}
+
+.book-cat {
+  color: rgb(0, 0, 0);
+}
+
+.img-user {
+  width: 50px;
+  margin-left: 60%;
+  margin-top: -20px;
+}
+
+.header {
+  border: 1px solid whitesmoke;
+  margin-left: 0%;
 }

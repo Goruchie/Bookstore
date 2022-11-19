@@ -50,6 +50,7 @@ const Book = (
           </li>
         </ul>
       </div>
+      <hr />
     </div>
   )
 );

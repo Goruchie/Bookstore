@@ -1,3 +1,8 @@
+body {
+  margin-left: 0%;
+  margin-right: 0%;
+}
+
 .book-data {
   display: flex;
   flex-direction: row;
@@ -5,6 +10,7 @@
   width: 90%;
   margin-top: 30px;
   padding: 1%;
+  margin-left: 1.3%;
 }
 
 .progress-container {
@@ -22,6 +28,7 @@
   display: flex;
   flex-direction: column;
   margin-left: 50px;
+  padding-top: 1px;
 }
 
 .current-chapter {
@@ -53,6 +60,7 @@
 
 .author {
   font-size: 19px;
+  color: rgba(0, 162, 255, 0.521);
 }
 
 .book-buttons-container {
@@ -61,9 +69,8 @@
 }
 
 .btn-buttons {
-  margin-right: 10px;
   border: none;
-  color: darkgrey;
+  color: rgba(0, 162, 255, 0.521);
   background-color: white;
   font-size: 14px;
 }
@@ -103,6 +110,7 @@
 
 .main-ul {
   list-style-type: none;
+  margin-left: 25px;
 }
 
 .img-circle {
@@ -114,4 +122,10 @@
   margin-left: 150px;
 
   /* background-color: aqua; */
+}
+
+hr {
+  height: 0.1px;
+  width: 98%;
+  border: 1px solid rgba(245, 241, 241, 0);
 }

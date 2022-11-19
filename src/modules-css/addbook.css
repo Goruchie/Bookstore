@@ -1,9 +1,10 @@
 .form {
-  border: 1px solid rgb(197, 186, 186);
-  width: 87.3%;
+  border: 1px solid whitesmoke;
+  width: 85.8%;
   padding: 1%;
-  margin-left: 40px;
+  margin-left: 5.8%;
   margin-top: 25px;
+  margin-bottom: 190px;
 }
 
 .add-title {
@@ -15,13 +16,13 @@ input {
 }
 
 .add-book {
-  width: 580px;
+  width: 620px;
   height: 30px;
 }
 
 .add-author {
-  width: 270px;
-  height: 35px;
+  width: 290px;
+  height: 30px;
   margin-left: 20px;
   margin-right: 20px;
 }
@@ -34,5 +35,5 @@ input {
   margin-top: 10px;
   padding: 15px;
   border-radius: 4px;
-  width: 180px;
+  width: 200px;
 }
