@@ -8,7 +8,7 @@ const RemoveBook = (id) => {
     dispatch(removeBook(id));
   };
   return (
-    <button type="button" onClick={onClickRemove}>Remove</button>
+    <button type="button" className="btn-buttons" onClick={onClickRemove}>Remove</button>
   );
 };
 
